@@ -25,7 +25,7 @@ body {
 }
 
 .topnav a {
-  float:right;
+  float: right;
   display: block;
   color: #6699cc;
   text-align: center;
@@ -73,7 +73,7 @@ body {
   background: #ccc;
 }
 
-.img-logo {
+.img-logo img {
   display: block;
   width: 250px;
   margin-left: auto;
@@ -99,7 +99,6 @@ body {
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
 
 .home-quote {
@@ -117,13 +116,43 @@ body {
   color: #003b6d;
 }
 
-
-img {
+.img-border img {
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 10px;
-  width: 400px;
 }
+
+.img-on-hover img:hover {
+  box-shadow: 10px 10px 10px #676767;
+}
+
+.pet-title {
+  padding-top: 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  color: #003b6d;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(
+    5,
+    1fr
+  ); /* This will create 5 columns of equal width */
+  gap: 10px; /* This will create a 10px gap between the grid items */
+}
+
+.grid-item {
+  /* Additional styling for the grid items if needed */
+  padding: 0;
+  text-align: center;
+}
+
+/* Add this rule to remove text-decoration */
+.grid-item a {
+  text-decoration: none;
+}
+
 /* Responsive mobile */
 
 @media screen and (max-width: 600px) {
