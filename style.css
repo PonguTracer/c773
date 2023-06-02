@@ -22,11 +22,14 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #003b6d;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .topnav a {
   float: right;
-  display: block;
   color: #6699cc;
   text-align: center;
   padding: 14px 16px;
@@ -38,6 +41,7 @@ body {
 .topnav a:hover {
   background-color: #bdbdbd;
   color: #676767;
+  border-radius: 8px;
 }
 
 .topnav a.active {
@@ -140,22 +144,64 @@ body {
     1fr
   ); /* This will create 5 columns of equal width */
   gap: 10px; /* This will create a 10px gap between the grid items */
+  margin-top: 40px;
+}
+
+/* .grid-container-adopt {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  text-align: center;
+  list-style: inside;
 }
 
 .grid-item {
-  /* Additional styling for the grid items if needed */
   padding: 0;
   text-align: center;
-}
+} */
 
 /* Add this rule to remove text-decoration */
 .grid-item a {
   text-decoration: none;
+  
 }
 
-/* Responsive mobile */
+hr {
+  border: 3px solid #003b6d;
+}
 
-@media screen and (max-width: 600px) {
+/* .adoption-wrapper {
+  text-align: center;
+}
+
+.adoption-wrapper-ul {
+  display: inline-block;
+  text-align: left;
+} */
+
+.link-list{
+  text-decoration: none;
+  color: white;
+  
+}
+.link-list-website{
+      text-decoration: none;
+      color: #6699CC;
+}
+
+footer{
+  background: #003b6d;
+}
+footer h5{
+  color: #bdbdbd;
+}
+footer p{
+  color: white;
+}
+
+
+
+
+/* @media screen and (max-width: 600px) {
   .topnav .search-container {
     float: none;
   }
@@ -172,4 +218,4 @@ body {
   .topnav input[type="text"] {
     border: 1px solid #ccc;
   }
-}
+} */
