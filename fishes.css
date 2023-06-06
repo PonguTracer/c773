@@ -122,20 +122,20 @@ footer p {
   color: #bdbdbd;
 }
 /* .consult-btn{
-    background-color: #bdbdbd;
-    margin-right: 0.5rem;
-} */
+        background-color: #bdbdbd;
+        margin-right: 0.5rem;
+    } */
 /* .fetch-btn{
-    background-color: #bdbdbd;
-    color: black;
-} */
+        background-color: #bdbdbd;
+        color: black;
+    } */
 /* .img-logo {
-    width: 7.5rem;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-} */
+        width: 7.5rem;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    } */
 .img-thumbnail {
   width: 5rem;
   height: auto;
@@ -165,27 +165,33 @@ footer p {
   color: white;
 }
 
-.carousel-cat-1 {
-  background: url("images/cat1.jpg");
+.carousel-dog-1 {
+  background: url("images/dog1.jpg");
   background-size: cover;
 }
 
-.carousel-cat-2 {
-  background: url("images/cat2.jpg");
+.carousel-dog-2 {
+  background: url("images/dog2.jpg");
   background-size: cover;
 }
 
-.carousel-cat-3 {
-  background: url("images/cat3.jpg");
+.carousel-dog-3 {
+  background: url("images/dog3.jpg");
   background-size: cover;
 }
 
-.carousel-cat-4 {
-  background: url("images/cat4.jpg");
+.carousel-dog-4 {
+  background: url("images/dog4.jpg");
   background-size: cover;
 }
 
-.carousel-cat-5 {
-  background: url("images/cat5.jpg");
-  background-size: cover;
+.fish-summary {
+  size: 660px;
+  font-size: 1.25rem;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.fish1 {
+  margin-top: 50px;
 }

@@ -14,20 +14,22 @@
   </head>
   <body>
     <!-- Navigation -->
-    <div class="topnav">
+    <div class="topnav sticky-top">
       <a href="index.html" class="img-logo">
         <img src="images/logo2.png" alt="Paradigm Logo" />
       </a>
-      <a href="#home" class="active">Home</a>
+      <a href="index.html" class="active">Home</a>
       <a href="cats.html">Cats</a>
-      <a href="#dogs">Dogs</a>
-      <a href="#birds">Birds</a>
-      <a href="#fishs">Fishs</a>
-      <a href="#smallAnimals">Small Animals</a>
+      <a href="dogs.html">Dogs</a>
+      <a href="fishes.html">Fishs</a>
       <div class="search-container">
         <form action="">
           <input type="text" placeholder="Search..." />
+          <button type="button" class="btn consult-btn" data-toggle="modal" data-target="#consultationModal">
+            Consultation
+          </button>
           <button type="submit"><i class="fa fa-search"></i></button>
+          
         </form>
       </div>
     </div>
@@ -71,9 +73,8 @@
       <div class="grid-item">
         <div class="img-container">
           <a
-            target="_blank"
             class="img-on-hover img-border"
-            href="images/cat2.jpg"
+            href="cats.html"
           >
             <img src="images/cat2.jpg" alt="cat" width="350" />
             <h3 class="pet-title">Cats</h3>
@@ -83,45 +84,20 @@
 
       <div class="grid-item">
         <a
-          target="_blank"
           class="img-on-hover img-border"
-          href="images/dog1.jpg"
+          href="dogs.html"
         >
           <img src="images/dog1.jpg" alt="dog" width="350" />
           <h3 class="pet-title">Dogs</h3>
         </a>
       </div>
-
       <div class="grid-item">
         <a
-          target="_blank"
           class="img-on-hover img-border"
-          href="images/hamster1.jpg"
-        >
-          <img src="images/hamster1.jpg" alt="hamster" width="350" />
-          <h3 class="pet-title">Small Animals</h3>
-        </a>
-      </div>
-
-      <div class="grid-item">
-        <a
-          target="_blank"
-          class="img-on-hover img-border"
-          href="images/fish1.jpg"
+          href="fishes.html"
         >
           <img src="images/fish1.jpg" alt="fish" width="350" />
           <h3 class="pet-title">Fishs</h3>
-        </a>
-      </div>
-
-      <div class="grid-item">
-        <a
-          target="_blank"
-          class="img-on-hover img-border"
-          href="images/bird1.jpg"
-        >
-          <img src="images/bird1.jpg" alt="bird" width="350" />
-          <h3 class="pet-title">Birds</h3>
         </a>
       </div>
     </section>
@@ -163,7 +139,7 @@
             <ul>
               <li><a class="link-list" href="cats.html">Cats</a><lil>
               <li><a class="link-list" href="dogs.html">Dogs</a></li>
-              <li><a class="link-list" href="smallPets.html">Snakes</a></li>
+              <li><a class="link-list" href="fishes.html">Fishes</a></li>
               <li><a class="link-list" href="#">More to come...</a></li>
             </ul>
           </div>
@@ -228,7 +204,7 @@
                     <option selected>Choose...</option>
                     <option>Cat</option>
                     <option>Dog</option>
-                    <option>Small Animal</option>
+                    <option>Fish</option>
                     <option>Other</option>
                   </select>
                 </div>
